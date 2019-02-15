@@ -1,62 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Montserrat:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <title>Freelancer</title>
-  <link rel="stylesheet" href="css/main.css"/>
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,900|Montserrat:800,900" rel="stylesheet">
 </head>
+
 <body>
-  <nav class="menu">
-    <ul>
-      <li><a href="#">START BOOTSTRAP</a></li>
-      <li><a href="#">Portfolio</a></li> 
-      <li><a href="#">About</a></li> 
-      <li><a href="#">Contact</a></li>
+  <nav>
+    <ul class="menuEsquerdo">
+      <li>Start Bootstrap</li>
+    </ul>
+    <ul class="menuDireito">
+      <li>Portfolio</li>
+      <li>About</li>
+      <li>Contact</li>
     </ul>
   </nav>
   <main>
     <section class="bootstrap">
-      <img src="assets/images/profile.png"> 
-      <h1>START BOOTSTRAP</h1>
+      <img src="assets/images/profile.png" alt="Start Bootstrap">
+      <h1>Start Bootstrap</h1>
+      <p class="line"><i class="fas fa-star"></i></p>
       <h3>Web Developer - Graphic Artist - User Experience Designer</h3>
     </section>
     <section class="portfolio">
-      PORTFOLIO
+      <h2>Portfolio</h2>
+      <p class="line"><i class="fas fa-star"></i></p>
       <article>
-        <img src="assets/images/portfolio/cabin.png">
-        <img src="assets/images/portfolio/cake.png">
-        <img src="assets/images/portfolio/circus.png">
-        <img src="assets/images/portfolio/game.png">
-        <img src="assets/images/portfolio/safe.png">
-        <img src="assets/images/portfolio/submarine.png">
+        <img src="assets/images/portfolio/cabin.png" alt="Cabin">
+        <img src="assets/images/portfolio/cake.png" alt="Cake">
+        <img src="assets/images/portfolio/circus.png" alt="Circus">
+        <img src="assets/images/portfolio/game.png" alt="Game">
+        <img src="assets/images/portfolio/safe.png" alt="Safe">
+        <img src="assets/images/portfolio/submarine.png" alt="Submarine">
       </article>
     </section>
     <section class="about">
-      ABOUT
+      <h2>ABOUT</h2>
+      <p class="line"><i class="fas fa-star"></i></p>
       <article>
-          
+        <p>
+          Freelancer is a free bootstrap theme created by Start Bootstrap.
+          The download includes the complete source files including HTML, CSS,
+          and JavaScript as well as optional LESS stylesheets for easy customization.
+        </p>
+        <p>
+          Whether you're a student looking to showcase your work, a professional
+          looking to attract clients, or a graphic artist looking to share your projects,
+          this template is the perfect starting point!
+        </p>
       </article>
+      <button><i class="fas fa-download"></i> Download Now!</button>
     </section>
     <section class="contact">
-      CONTACT ME
-      <article>
-        <form>
-          <input type="text" placeholder="Name"><br>
-          <input type="email" placeholder="Email Adress"><br>
-          <input type="tel" placeholder="Phone Number"><br>
-          <textarea rows=5 cols=70 placeholder="Message"></textarea><br>
-          <input type="submit" name="Send">
-        </form>
-      </article>
+      <h2>Contact Me</h2>
+      <p class="line"><i class="fas fa-star"></i></p>
+      <form>
+        <input type="text" placeholder="Name"><br><br>
+        <input type="email" placeholder="Email Address"><br><br>
+        <input type="tel" placeholder="Phone Number"><br><br>
+        <textarea placeholder="Message" rows="5" cols="60"></textarea><br>
+        <button type="submit">Send</button>
+      </form>
     </section>
   </main>
   <footer>
-    <i class="fab fa-facebook-f"></i>
-    <i class="fab fa-google-plus"></i>
-    <i class="fab fa-twitter"></i>
-    <i class="fab fa-linkedin-in"></i>
+    <section class="rodape">
+      <h3>Location</h3>
+      <h3>Around the web</h3>
+      <h3>About Freelancer</h3>
+      <p>2215 John Daniel Drive<br> Clark, MO 65243</p>
+      <p>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-google-plus-g"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin-in"></i>
+        <i class="fab fa-fw fa-dribbble"></i>
+      </p>
+      <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap.</a></p>
+    </section>
+    <section class="copyright">
+      <p>Copyright © Your Website 2019</p>
+    </section>
   </footer>
-
 </body>
+
 </html>

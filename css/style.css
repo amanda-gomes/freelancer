@@ -1,0 +1,337 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+  background: #2c3e50;
+  color: #fff;
+  padding: 2.5%;
+  display: block;
+}
+
+ul,li {
+  list-style-type: none;
+  display: inline-block;
+  text-transform: uppercase!important;
+  padding: 0px 10px;
+}
+
+.menuEsquerdo{
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  left: 5%;
+}
+
+.menuDireito {
+  font-size: 17px;
+  font-weight: 700;
+  position: relative;
+  left: 36.5%;
+}
+
+.main {
+  height: 200vw;
+
+}
+
+.bootstrap {
+  background: #18bc9c;
+  height: 50vw;
+  color: #fff;
+  display: block;
+}
+
+.bootstrap img {
+  display: block;
+  position: relative;
+	left: 40.5%;
+	top: 15%;  
+}
+
+.bootstrap h1 {
+  display: block;
+  text-transform: uppercase!important;
+  font-size: 75px;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  top: 20%;
+}
+
+.line {
+  width: 250px;
+  height: 5px;
+  background-color: white;
+  margin: 100px auto 0 auto;
+  position: relative;
+  top: 9%;
+}
+
+.line .fa-star {
+  font-size: 27px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -25px;
+  background: #18bc9c;
+  padding: 10px;
+}
+
+.bootstrap h3 {
+  display: block;
+  font-size: 28px;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  top: 15%;
+}
+
+.portfolio {
+  background: #fff;
+  height: 60vw;
+  color: #2c3e50;
+  display: block;
+}
+
+.portfolio h2 {
+  text-transform: uppercase!important;
+  font-size: 47px;
+  font-weight: 700;
+  text-align: center; 
+  position: relative;
+  top: 12%; 
+}
+
+.portfolio .line {
+  width: 250px;
+  height: 5px;
+  background-color: #2c3e50;
+  margin: 100px auto 0 auto;
+  position: relative;
+  top: 2%;
+}
+
+.portfolio .line .fa-star {
+  font-size: 27px;
+  color: #2c3e50;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -25px;
+  background: #fff;
+}
+
+.portfolio article {
+  display: block;
+  padding: 3%;
+}
+
+.portfolio img {
+  height: 41%;
+  width: 28%;
+  margin: 12px;
+  position: relative;
+  left: 5%;
+}
+
+.about {
+  background: #18bc9c;
+  height: 45vw;
+  color: #fff;
+  display: block;
+}
+
+.about h2 {
+  text-transform: uppercase!important;
+  font-size: 47px;
+  font-weight: 700;
+  text-align: center; 
+  position: relative;
+  top: 8%; 
+  padding: 30px;
+}
+
+.about .line {
+  width: 250px;
+  height: 5px;
+  background-color: #fff;
+  margin: 100px auto 0 auto;
+  position: relative;
+  top: -7%;
+}
+
+.about .line .fa-star {
+  font-size: 27px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -25px;
+  background: #18bc9c;
+}
+
+.about article {
+  display: flex;
+  width: 55%;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 17px;
+  position: relative;
+  left: 22%;
+  line-height: 30px;
+}
+
+.about article p {
+  padding: 20px;
+}
+
+.about button {
+  background: #18bc9c;
+  border: 2px solid #fff;
+  size: 20px;
+  color: #fff;
+  font-family: "Lato";
+  font-size: 20px;
+  width: 230px;
+  height: 70px;
+  border-radius: 4px;
+  position: relative;
+  left: 40%;
+  margin: 2%;
+}
+
+.contact {
+  background: #fff;
+  height: 60vw;
+  color: #2c3e50;
+  display: block;
+}
+
+.contact h2 {
+  text-transform: uppercase!important;
+  font-size: 47px;
+  font-weight: 700;
+  text-align: center; 
+  position: relative;
+  top: 5%; 
+  padding: 30px;
+}
+
+.contact .line {
+  width: 250px;
+  height: 5px;
+  background-color: #2c3e50;
+  margin: 100px auto 0 auto;
+  position: relative;
+  top: -7%;
+}
+
+.contact .line .fa-star {
+  font-size: 27px;
+  color: #2c3e50;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -25px;
+  background: #fff;
+}
+
+.contact form {
+  padding: 20px;
+}
+
+input {
+  display: block;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 25px;
+  width: 57%;
+  height: 50px;
+  border: none;
+  position: relative;
+  left: 22%;  
+  border-bottom: 1px solid #e9ecef;
+}
+
+textarea{
+  display: block;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 25px;
+  border: none;
+  position: relative;
+  left: 22%;  
+  border-bottom: 1px solid #e9ecef;
+}
+
+.contact button {
+  background: #18bc9c;
+  border: none;
+  border-radius: 4%;
+  color: #fff;
+  width: 8%;
+  height: 55px;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  position: relative;
+  left: 22%;
+}
+
+footer .rodape {
+  background: #2c3e50; 
+  font-family: "Lato";
+  color: #fff;
+  height: 10vw;
+  padding: 6%;
+}
+
+footer .rodape h3 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 25px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+footer .rodape p {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 20px;
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  vertical-align: top;
+  padding-left: 3%;
+  position: relative;
+  top: 10%;
+}
+
+footer .rodape i {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 20px;
+  width: 20px;
+}
+
+footer .copyright {
+  background: #212529; 
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  height: 1vw;
+  padding: 30px;
+}
